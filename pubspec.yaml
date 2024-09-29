@@ -1,0 +1,28 @@
+name: tugas2prak
+description: A new Flutter project.
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.17.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+
+  # Ensure 'assets' is declared only once
+  assets:
+    - assets/images/download.jpeg
+    - assets/images/download2.jpeg
+    - assets/images/download3.jpeg
+
+
+
+  # If 'uses-material-design' is needed, add it only once
+  uses-material-design: true
